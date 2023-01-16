@@ -87,7 +87,7 @@ class Board(tk.Tk):
                 button.config(highlightbackground="red")
 
     def reset_board(self):
-        """Reset the game's board to play again."""
+        """Reset the game's board to play again okay."""
         self._game.reset_game()
         self._update_display(msg="Ready?")
         for button in self._cells.keys():
